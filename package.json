@@ -8,7 +8,7 @@
   "tonicExampleFilename": "example.js",
   "files": [
     "browser",
-    "dist",
+    "src",
     "es",
     "jimp.d.ts",
     "fonts"
