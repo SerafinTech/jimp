@@ -138,10 +138,11 @@ export function parseBitmap(data, path, cb) {
 
             case constants.MIME_BMP:
             case constants.MIME_X_MS_BMP:
-                this.bitmap = BMP.decode(data);
+                try {
+                    this.bitmap = BMP.decode(data);
 
-                fromAGBR(this);
-
+                    fromAGBR(this);
+                } catch (e) {}
                 break;
 
             case constants.MIME_GIF:
