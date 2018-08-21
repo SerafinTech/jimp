@@ -2,7 +2,7 @@
   "name": "jimp",
   "version": "0.3.5",
   "description": "An image processing library written entirely in JavaScript (i.e. zero external or native dependencies).",
-  "main": "./src/index.js",
+  "main": "./src/jimp.js",
   "browser": "./browser/lib/jimp.js",
   "types": "./jimp.d.ts",
   "tonicExampleFilename": "example.js",
